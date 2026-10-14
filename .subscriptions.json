@@ -1,0 +1,18 @@
+[
+  {
+    "id": "1RXV1TFBLVXdzNmFVY2piU3l1VkpJYmxwTm85bTBKZVduOFk",
+    "subscription": {
+      "endpoint": "https://fcm.googleapis.com/fcm/send/fC7MyyGpf6o:APA91bHwzLWKrX9iKIybjysfIxdmX1RDz7ia5slxmb2Gm8KASboIYf6xnkuG03MOYYwfX0i3j3FG7Brkp_WnYVZmcVEsiVvNhTkbqhjw5EuuLPKUws6aUcjbSyuVJIblpNo9m0JeWn8Y",
+      "expirationTime": null,
+      "keys": {
+        "p256dh": "BJu-CNW17VfXp85KdSiQ2AfQsoyHpNkHV4LB2ylbLu8o0Xu6vmpT0KS4PByAojz204tu9vqI2L8iHAwtP4PK3Ds",
+        "auth": "E1qk-E_12nLJV89Dq6PoYQ"
+      }
+    },
+    "city": "부산",
+    "latitude": 35.1796,
+    "longitude": 129.0756,
+    "createdAt": "2026-10-14T10:03:07.789Z",
+    "updatedAt": "2026-10-14T10:03:07.789Z"
+  }
+]

@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #060b19;
+    color: #f8fafc;
+    font-family:
+      "Pretendard Variable",
+      "Pretendard",
+      -apple-system,
+      BlinkMacSystemFont,
+      system-ui,
+      Roboto,
+      "Noto Sans KR",
+      sans-serif;
+  }
+}
+
+/* 커스텀 스크롤바 숨김 유틸리티 (9:16 모바일 프레임 내부용) */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "모닝 웨더 8AM - 매일 아침 날씨 브리핑",
+  "short_name": "모닝웨더",
+  "description": "매일 아침 8시(KST) 오늘의 기온, 강수 확률, 우산 지참 팁을 푸시 알림으로 전해드리는 날씨 PWA",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#1e3a8a",
+  "lang": "ko-KR",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

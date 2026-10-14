@@ -1,0 +1,30 @@
+{
+  "name": "morning-weather-pwa",
+  "version": "1.0.0",
+  "private": true,
+  "description": "매일 아침 8시(KST) 오늘의 날씨를 알려주는 9:16 모바일 최적화 웨더 브리핑 PWA",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "generate-vapid": "npx web-push generate-vapid-keys --json"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "^14.2.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@types/web-push": "^3.6.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}
